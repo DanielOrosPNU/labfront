@@ -1,0 +1,24 @@
+.fun-container {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+}
+
+.fun-text {
+    display: inline-block;
+    animation: bounce 5s infinite linear;
+    font-size: 55px;
+    color: white;
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateX(300%);
+    }
+    50% {
+        transform: translateX(-150%);
+    }
+}
+body{
+    background-color:#191919;
+}
