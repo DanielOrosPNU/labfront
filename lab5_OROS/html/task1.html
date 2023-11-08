@@ -1,0 +1,112 @@
+
+<html>
+<head>
+    <title>Завдання 1</title>
+    <meta charset="UTF-8">
+    <style type="text/css">
+        /*Селектор типу*/
+        h2 {
+            font-size:16pt;
+            color:#0033FF;
+            font-family:Geneva, Arial
+        }
+
+        /*Селектор класу*/
+        h2.curs {
+            font-size:18pt;
+            font-style:italic;
+            font-family: "Courier New", Courier, mono;
+            color:#46dcf9
+        }
+
+        /*Селектор класу*/
+        h2.normal {
+            font-size:16pt;
+            font-style:normal;
+            color:#FF0000
+        }
+
+        /* Селектор айді, але дивлячись на те скільки раз його використають, він має бути селектором класу */
+        #bgmagenta{
+            text-indent:20px;
+            background-color:#1166FF;
+            color:#FFFF00
+        }
+
+        /*Селектор айді*/
+        #fishka{
+            background-color:#CC99FF;
+            color:#3300FF;
+            font-family:serif;
+            font-size:20pt;
+            font-style:oblique
+        }
+
+        /*Селектор айді*/
+        #bgyellow{
+            background-color:#FFFF00;
+            color:#0000FF;
+            font-family:Verdana, Arial
+        }
+
+        /*Селектор типу*/
+        div {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            padding: 20px;
+            border: dashed 3px;
+            font-size:15pt;
+        }
+
+        /*Селектор класу*/
+        div.text {
+            position: absolute;
+            font-family:"serif";
+            background-color:#99FFFF;
+            color:red;
+            font-style:oblique;
+            top: 600px;
+            width: 850px;
+            height: 150px;
+            padding: 20px;
+
+        }
+        /*Селектор айді*/
+        #first {
+            top: 850px;
+            left: 50px;
+            background: #ccf0ff;
+            border-color: #0cf;
+        }
+        /*Селектор айді*/
+        #second {
+            top: 950px;
+            left: 150px;
+            background: #fff0cc;
+            border-color: #fc0;
+            font-size:10pt;
+        }
+    </style>
+</head>
+<a href="../lab5.html" style="position: absolute; top: 0; left: 0;">Назад</a> <br>
+
+
+<body  bgcolor="#FFCC99">
+
+<h2>Приємно на пари з ранку приходити</h2>
+<h2 class="curs"> Приємно бачити добрі очі екзаменатора</h2>
+<h2 id="bgmagenta"> Приємно зайти в деканат після сесії</h2>
+<p id="bgmagenta"><!--Має бути клас, а не айді--> Приємно не мати "хвостів", <br> бути успішним і <br id="fishka"><!--Не спрацювало, тому що bgmagenta айдішник тегу p--> упевненим у завтрашньому дні</p>
+<h2 class="curs"> Приємно вчасно захищати лабораторні роботи...</h2><br><br>
+<div class="text" align="center "><!--Лишній пробіл після "center"--> Життя світле й безхмарне, коли тобі 20 років і
+    попереду <p class="normal"> море надій, </p> <hr id="bgyellow" size="8"> усе тіло наповнене енергією й готове до <p  id="bgmagenta"><!--Айді має бути унікальним--> здійснень, щастя, любові </p></div>
+<h3 class="curs"> Життя повне приємних моментів</h1> <!--Тут має бути закриваючий тег h3-->
+    <h3 id="fishka" align="center"> Тільки варто небагато попрацювати</h3>
+    <!--Айді має бути унікальним--><hr id="bgmagenta" align="center" width="200" size="5">
+    <hr id="bgyellow" align="center" width="150" size="5">
+    <!--Айді має бути унікальним--><h2 id="bgyellow" align="center"> Мрії  прогульника</h2>
+    <h2 class="normal"> Том 2. Повне зібрання студентських снів</h2>
+    <div id="first">Перший блок</div>
+    <div id="second">Другий блок</div>
+</html>

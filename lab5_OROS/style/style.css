@@ -1,0 +1,29 @@
+.paragraph1 {
+    margin-left: 0px;
+}
+
+.paragraph2 {
+    margin-left: 60px;
+}
+
+.paragraph3 {
+    margin-left: 120px;
+}
+
+.first-paragraph {
+    color: blue;
+    background-color: yellow;
+    border: 2px solid #333;
+}
+
+.second-paragraph {
+    color: rgb(128, 0, 128);
+    background-color: #32a852;
+    border: 4px dashed #070aba;
+}
+
+.third-paragraph {
+    color: red;
+    background-color: pink;
+    border: 6px dotted #ff0000;
+}

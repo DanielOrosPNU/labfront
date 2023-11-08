@@ -1,0 +1,38 @@
+body {
+    background: url("../images/ramka.gif") white repeat-y left fixed;
+}
+
+h4 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.block1 h4,
+.block2 h4 {
+    font-style: italic;
+}
+
+.block1,
+.block2 {
+    display: inline-block;
+    margin: 100px 20px 20px 20px;
+    padding: 10px;
+    position: absolute;
+    border: 5px double red;
+    height: 120%;
+    text-indent: 15px;
+    overflow: auto;
+    background: url("../images/bg_menu.gif") rgb(255, 204, 153) repeat-x fixed;
+}
+
+.block1 {
+    background-position: center;
+    width: 600px;
+    left: 200px;
+}
+
+.block2 {
+    background-position: top;
+    left: 840px;
+    width: 400px;
+}

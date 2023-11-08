@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        img{
+            width: 300px;
+            height: auto;
+        }
+        .absolute{
+            position: absolute;
+            right:50px;
+        }
+        .fixed{
+            right:550px;
+            position: fixed;
+        }
+        .relative{
+            position: relative;
+        }
+        .static{
+            right:70%;
+            /*Насправді, цей параметр нічого не змінить, тому що позиція статична*/
+            position: static;
+        }
+        .inherit{
+            position: inherit;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання 3</title>
+</head>
+<body>
+<a href="../task3.html" style="position: absolute; top: 0; left: 0;">Назад</a> <br>
+<div class="absolute">
+    <img src="images/ricenchick.jpg">
+    <p>absolute</p>
+</div>
+<div class="fixed">
+    <img src="images/ricenchick.jpg">
+    <p>fixed</p>
+</div>
+<div class="relative">
+    <img src="images/ricenchick.jpg">
+    <p>relative</p>
+</div>
+<div class="static">
+    <img src="images/ricenchick.jpg">
+    <p>static</p>
+</div>
+<div class="inherit">
+    <img src="images/ricenchick.jpg">
+    <p>inherit</p>
+</div>
+</body>
+</html>
