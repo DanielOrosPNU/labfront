@@ -1,0 +1,87 @@
+.page-light{
+    background-color: white;
+}
+.wrapper{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    box-shadow: 0 100px 50px rgba(0, 0, 0, 0.1);
+    font-family: "Cascadia Code";
+    font-size: 25px;
+    max-font-size: 100%;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+}
+.nav1{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin-right: 50px;
+}
+.nav-item{
+    margin-left: 55px;
+    width: 100%;
+
+}
+.nav-link{
+    color: black;
+    text-decoration: none;
+}
+.title-h2{
+
+    text-align: center;
+    font-size: 36px;
+    margin-right: 45px;
+    font-family: "Cascadia Code";
+
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family: "Cascadia Code";
+}
+#logo{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    margin-right: 65px;
+    background-attachment: fixed;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    height: 115px;
+}
+#logotext{
+    display: flex;
+    text-align: center;
+    width: 200px;
+    margin-right: 50px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    height: 2.5rem;
+    text-align: center;
+    justify-content: center;
+    font-family: "Cascadia Code";
+}
+article{
+    font-family: "Cascadia Code";
+}
+#sizeP{
+    font-family: "Cascadia Code";
+    font-size: 10px;
+}
