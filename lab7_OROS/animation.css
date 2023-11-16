@@ -1,0 +1,21 @@
+
+.wordContainer {
+    overflow: hidden;
+
+}
+
+@keyframes up {
+    100% {
+        transform: translateY(0%);
+    }
+}
+.product-item {
+    animation: up 0.8s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    transform: translateY(115%);
+    margin-right: 120px;
+    border-image: repeating-linear-gradient(30deg, #4d9f0c, #9198e5, #4d9f0c 20px) 60;
+
+
+}

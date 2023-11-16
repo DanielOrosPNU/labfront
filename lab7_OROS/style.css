@@ -1,0 +1,131 @@
+.page-light{
+    background-color: white;
+}
+.wrapper{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    box-shadow: 0 100px 50px rgba(0, 0, 0, 0.1);
+    font-family: "Cascadia Code";
+    font-size: 25px;
+    max-font-size: 100%;
+    border-radius: 10px;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+}
+.nav1{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin-right: 50px;
+}
+.nav-item{
+    margin-left: 55px;
+    width: 100%;
+
+}
+.nav-link{
+    color: black;
+    text-decoration: none;
+    cursor:
+            url("cursor/choose.cur") 4 12, auto;
+}
+.title-h2{
+
+    text-align: center;
+    font-size: 36px;
+    margin-right: 45px;
+    font-family: "Cascadia Code";
+
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family: "Cascadia Code";
+
+}
+#logo{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    margin-right: 65px;
+    background-attachment: fixed;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    height: 115px;
+}
+#logotext{
+    display: flex;
+    text-align: center;
+    width: 200px;
+    margin-right: 50px;
+}
+footer{
+    margin-top: 100px;
+    width: 99%;
+    text-align: center;
+    justify-content: center;
+    font-family: "Cascadia Code";
+    cursor:
+            url("cursor/normal.cur") 4 12, auto;
+}
+article{
+    font-family: "Cascadia Code";
+}
+#sizeP{
+    font-family: "Cascadia Code";
+    font-size: 10px;
+    transform: skewY(-2deg);
+
+}
+.outlinemain{
+    outline: 8px dashed black;
+    resize: both;
+    overflow: hidden;
+    overflow-y: scroll;
+    background: linear-gradient(#e66465, #9198e5);
+    width: 1150px;
+    height: 700px;
+    max-width: 1150px;
+    max-height: 700px;
+}
+.resizable{
+    resize: both;
+    height: 100px;
+    width: 80px;
+    border-left: 2px solid;
+
+}
+body{
+    cursor:
+   url("cursor/normal.cur") 4 12, auto;
+}
+div{
+    cursor:
+            url("cursor/normal.cur") 4 12, auto;
+}
+.product-title{
+    font-size: 14px;
+    transition: font-size 500ms 25ms;
+    max-width: 300px;
+    max-height: 300px;
+    width: 250px;
+    height: 250px;
+}
+.product-title:hover{
+    font-size: 36px;
+}
