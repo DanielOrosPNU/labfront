@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+@font-face {
+    font-family: "Ephesis";
+    src: local("Ephesis"), local("Ephesis"),
+    url("Ephesis-Regular.ttf");
+    font-weight: bold;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: 'Vina Sans', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 85%;
+    height: 100%;
+}
+
+.flex-item {
+    box-sizing: border-box;
+    text-align: center;
+    color: #000000;
+    font-size: 1em;
+    overflow: auto;
+    border: 1px solid black;
+    flex: 1 1 calc(33.33% - 20px);
+    height: calc(50% - 10px);
+
+}
+
+@media (max-width: 600px) {
+    .block {
+        flex: 1 1 100%;
+    }
+}
+
+@media print {
+    body {
+        background-color: white;
+    }
+    .block {
+        border: 1px solid black;
+    }
+}
+
+#item1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background-color: yellow;
+}
+
+#item2 {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 20%;
+    height: 80%;
+    background-color: aquamarine;
+    padding-top: 10%;
+    z-index: 2;
+}
+
+#item3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background-color: #0000ff;
+    z-index: 2;
+}
+
+#item4 {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 80%;
+    height: 90%;
+    background-color: #ffffff;
+    overflow: auto;
+    font-family: Ephesis;
+}
+
+#item5 {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: 12%;
+    background-color: #00ffae;
+    z-index: 1;
+}
